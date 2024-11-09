@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">
+
+
+    <title>Introduce</title>
+    <style>
+        body {
+            font-family: "Yeon Sung", sans-serif;
+        }
+
+        h1{
+            text-decoration-line: overline;
+            text-decoration-color: red;
+            text-decoration-style: solid;
+        }
+        h1, header, nav, div {
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+            margin: 20px;
+        }
+        
+        table, th, td {
+        border:5px solid rgb(109, 113, 221);
+        padding: 10px;
+        border-collapse: collapse;
+        }
+        th, td {
+            background-color:rgb(223, 223, 242);
+            border-style: inset;
+        }
+        .theme {
+            background-color:rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+            margin-left: 20px;
+            margin-right:100px;
+        }
+
+        aside {
+            width: 20%;
+            margin-left:15px;
+            float:right;
+            font-style:italic;
+            background-color: rgb(243, 180, 180);
+            border:15px solid red;
+            padding:10px
+        }
+        .container {
+            display:flex;
+            margin:30px;
+        }
+        
+    </style>      
+</head>
+
+<body style="background-color: rgb(76, 33, 193);">
+    <header>
+        <div class="container">
+        <img src="images/8_페이지 로고.png" width="50">
+        <h1>자기소개</h1>
+        </div>
+        <div style="line-height:5px">
+            <p>수 789</p>
+            <p>Web Programming Class</p>
+
+        </div>
+
+        <nav>
+            <a href="page/8_book.html" target="_blank">책</a> |
+            <a href="page/8_funny.html" target="_blank">MBTI</a> |
+            <a href="page/8_movie.html" target="_blank">영화</a> |
+            <a href="page/8_hobby.html" target="_blank">취미</a> |
+        </nav>
+    </header>
+
+
+
+<div>
+    <h1>Reader의 정보</h1>
+    <label for ="name">이름:</label>
+    <input type="text" id="name" name="name" size="25"><br>
+    <label for ="number">학번:</label>
+    <input type="text" id="number" name="number" size="25"><br>
+    <label for="gender">성별: </label>
+    <select id="gender" name="gender">
+        <option value="man">남</option>
+        <option value="woman">여</option>
+    </select>
+    <aside>
+        <p>부전공은 Finance&amp;AI에서 통계학과로 변경할 예정입니다. 따라서 지금 수강하고 있는 과목은 Finance&amp;AI 과목이 아닌 통계학과 과목이고, 현재 '통계 계산 및 실습', '확률분포론', '확률분포론연습'을 수강하고 있습니다.</p>
+    </aside>
+
+</div>
+<article class="theme">
+    <section>
+        <h1>간단한 프로필</h1>
+        <img src="images/8_내 사진.jpg" width="300" height="300">
+        <ul>
+            <li>이름: 구예빈</li>
+            <li>나이: 22살</li>
+            <li>생년월일: 2003.03.19</li>
+        </ul>
+    </section>
+    <hr>
+    <section>
+        <h2>전공에 대하여</h2>
+        <table style="width:70%">
+            <tr>
+                <th>본전공</th>
+                <th>부전공</th>
+                <th>학년</th>
+            </tr>
+            <tr>
+                <td>컴퓨터공학과</td>
+                <td>Finance&amp;AI</td>
+                <td>2학년</td>
+            </tr>
+        </table>
+    </section> 
+</article>
+
+
+<footer style="color: white">
+    <hr>
+    <p>Author: 컴퓨터공학과 202303475 구예빈</p>
+    <p>글로벌캠퍼스 17035 경기도 용인시 처인구 모현읍 외대로 81 한국외국어대학교 글로벌캠퍼스</p>
+    <p>Email: kuyebin@naver.com</p>
+    <p>add video, youtube, css colors, css backgrounds, css borders, css margins, css paddings, css width/height, css box model</p>
+
+</footer>
+
+</body>
+</html>
